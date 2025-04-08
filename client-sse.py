@@ -4,7 +4,7 @@
 #
 # Code borrowed and hacked from https://modelcontextprotocol.info/docs/tutorials/building-a-client/
 
-
+import json
 from huggingface_hub import get_token
 from openai import AsyncOpenAI
 from mcp import ClientSession, StdioServerParameters
